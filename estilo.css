@@ -14,7 +14,7 @@ html{
 /*MENU*/
 .contenedor-header{
     background-color: #1e2326;
-    position:relative;
+    position:fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -65,15 +65,17 @@ html{
     height: 100vh;
     color: #fff;
     display: flex;
+    margin-top: 4%; /* SOLUCION PARA QUE NO SE SUPERPONGA EL CONTENIDO DE INICIO CON EL BANNER*/
     align-items: center;
 }
 .inicio .contenido-banner{
     padding: 20px;
     background-color: #1e2326;
     max-width: 350px;
-    margin: auto;
+    margin:auto;
     text-align: center;
     border-radius: 40px;
+    /* margin-top: 50px; */
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
@@ -517,7 +519,7 @@ footer .arriba{
         background-color: #252a2e;
         width: 180px;
     }
-    nav.responsivea ul{
+    nav.responsive ul{
         display: block !important;
     }
     nav.responsive ul li{
@@ -526,5 +528,35 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
-    
+    .sobremi .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
 } 

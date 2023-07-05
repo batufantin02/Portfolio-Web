@@ -16,15 +16,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
-                <i class="fa-solid fa-bars"></i>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars-staggered fa-fade"></i>
             </div>
         </header>
     </div>
@@ -38,10 +38,10 @@
             <h1>BALTAZAR FANTIN GARCIA</h1>
             <h2>Estudiante de Tecnicatura Univesitaria en Programación - Developer .NET Trainee</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/batu.fantin/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/Batu_fantin" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/baltazar-fantin-garcia-1a9649268/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/batufantin02" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     </section>
@@ -277,7 +277,7 @@
     <!-- FOOTER -->
     <footer>
         <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
+            <i class="fa-solid fa-angles-up fa-bounce"></i>
         </a>
         <div class="redes">
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -286,6 +286,6 @@
             <a href="#"><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html> 
