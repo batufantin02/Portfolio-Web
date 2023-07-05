@@ -187,6 +187,10 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 } 
+/*OPCION 1 DE DESCARGAR DE PDF*/
+.sobremi .enlace-cv{
+    text-decoration: none;
+}
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
