@@ -16,27 +16,27 @@ function seleccionar(){
 }
 // FUNCION DESCARGA DE PDF
 
-function descargarCV() {
-    // URL del archivo PDF
-    var url = "http://127.0.0.1:5500/FantinBaltazarCv.pdf";
+// function descargarCV() {
+//     // URL del archivo PDF
+//     var url = "http://127.0.0.1:5500/FantinBaltazarCv.pdf";
   
-    // Crear un elemento <a> invisible
-    var link = document.createElement("a");
-    link.style.display = "none";
-    document.body.appendChild(link);
+//     // Crear un elemento <a> invisible
+//     var link = document.createElement("a");
+//     link.style.display = "none";
+//     document.body.appendChild(link);
   
-    // Establecer la URL del archivo PDF
-    link.href = url;
+//     // Establecer la URL del archivo PDF
+//     link.href = url;
   
-    // Establecer el nombre del archivo
-    link.download = "Fantin Garcia, Baltazar - CV.pdf";
+//     // Establecer el nombre del archivo
+//     link.download = "Fantin Garcia, Baltazar - CV.pdf";
   
-    // Simular un clic en el enlace para iniciar la descarga
-    link.click();
+//     // Simular un clic en el enlace para iniciar la descarga
+//     link.click();
   
-    // Eliminar el elemento <a> del DOM
-    document.body.removeChild(link);
-  }
+//     // Eliminar el elemento <a> del DOM
+//     document.body.removeChild(link);
+//   }
   
 // function descargarcv() {
 //     // Nombre del archivo PDF que deseas descargar
