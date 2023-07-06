@@ -15,7 +15,6 @@ function seleccionar(){
     menuVisible = false;
 }
 // FUNCION DESCARGA DE PDF
-
 // function descargarCV() {
 //     // URL del archivo PDF
 //     var url = "http://127.0.0.1:5500/FantinBaltazarCv.pdf";
@@ -37,7 +36,7 @@ function seleccionar(){
 //     // Eliminar el elemento <a> del DOM
 //     document.body.removeChild(link);
 //   }
-  
+// FUNCION PRUEBA
 // function descargarcv() {
 //     // Nombre del archivo PDF que deseas descargar
 //     var nombreArchivo = "FantinBaltazarCv.pdf";
@@ -55,6 +54,7 @@ function seleccionar(){
 //     // link.click();
 //     // document.body.removeChild(link);
 //   }
+// FUNCION PRUEBA
 // function downloadFile(path: string, fileName: string){
 //     const downloadInstance = document.createElement('a');
 //     downloadInstance.href = 'http://127.0.0.1:5500/FantinBaltazarCv.pdf';
