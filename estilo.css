@@ -4,11 +4,14 @@
     font-family: 'Work Sans';
     margin: 0;
     padding: 0;
-
+    text-decoration: none;
+    border: none;
+    outline: none;
 }
 html{
     /*me permite deslizar cuando hago click en los links del menu*/
     scroll-behavior: smooth;
+    /* overflow-x: hidden; */
 
 }
 /*MENU*/
@@ -19,6 +22,10 @@ html{
     top: 0;
     left: 0;
     z-index: 99;
+    box-shadow: 0px 4px 5px 0px rgba(23, 199, 175, 0.71);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(23, 199, 175, 0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(23, 199, 175, 0.71);
+    
 }
 .contenedor-header header{
     max-width: 1100px;
@@ -27,6 +34,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
+    
 }
 .contenedor-header header .logo a{
     font-family: 'Righteous';
@@ -341,7 +349,13 @@ html{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
+}
+.portfolio h3{
+    font-size: 25px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 15px 0;
 }
 .portfolio .galeria .proyecto{
     text-decoration: none;
