@@ -544,7 +544,7 @@ section{
 @keyframes show{
     from{
         opacity: 0;
-        scale: 25%;
+        scale: 60%;
     }
     to {
         opacity: 1;
