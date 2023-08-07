@@ -11,6 +11,7 @@
 html{
     /*me permite deslizar cuando hago click en los links del menu*/
     scroll-behavior: smooth;
+    background-color: #1e2326;
     /* overflow-x: hidden; */
 
 }
@@ -528,7 +529,7 @@ footer .arriba{
     font-size: 18px;
 }
 /* ANIMACION SEGUN POSICION DE SCROOL */
-img{
+section{
     view-timeline-name: --revealing-image;
     view-timeline-axis: block;
     
