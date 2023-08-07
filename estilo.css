@@ -527,7 +527,7 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-
+/* ANIMACION SEGUN POSICION DE SCROOL */
 img{
     view-timeline-name: --revealing-image;
     view-timeline-axis: block;
@@ -539,7 +539,7 @@ img{
 
     animation-range: entry 25% cover 50%;
 }
-
+/* ANIMACION SEGUN POSICION DE SCROOL */
 @keyframes show{
     from{
         opacity: 0;
@@ -550,6 +550,7 @@ img{
         scale: 100%;
     }
 }
+
 /* RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
